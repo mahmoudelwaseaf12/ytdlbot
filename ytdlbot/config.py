@@ -10,8 +10,8 @@ __author__ = "Benny <benny.think@gmail.com>"
 import os
 
 # general settings
-WORKERS: "int" = int(os.getenv("WORKERS", 100))
-PYRO_WORKERS: "int" = int(os.getenv("PYRO_WORKERS", 100))
+WORKERS: "int" = int(os.getenv("WORKERS", ))
+PYRO_WORKERS: "int" = int(os.getenv("PYRO_WORKERS", ))
 APP_ID: "int" = int(os.getenv("APP_ID", 22745599))
 APP_HASH = os.getenv("APP_HASH", "3f0b55d67e0357d426afc5dc3c27145c")
 TOKEN = os.getenv("TOKEN", "5936127528:AAHgno3Ju7IoU5KeisgRgpgY5CvjkN6B89c")
